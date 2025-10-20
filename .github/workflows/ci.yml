@@ -37,7 +37,7 @@ jobs:
         uses: zricethezav/gitleaks-action@v2
       # Upload the Gitleaks report
       - name: Upload Gitleaks report
-        uses: ac�ons/upload-ar�fact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: gitleaks-report
           path: results.sarif
